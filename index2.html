@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal</title>
+    <link rel="stylesheet" href="index2styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="cabecalho" class="navbar">
+            <div class="textobarra">
+              <a href="#insta">Contato</a>
+              <a href="#titulo-dois">Portfólio</a>
+              <a href="#titulo-principal">Geral</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <img src="https://i.ibb.co/WGg6R27/Imagem-do-Whats-App-de-2024-07-15-s-20-22-06-3f638aa7.jpg" alt="Uma foto para representar." id="foto-um"/>
+        <div id="titulo-principal">
+            <p class="about">about me.</p>
+        </div>
+        <div id="colunas">
+            <p class="item-um">Oi, meu nome é Gilberto Sousa, sou natural de Teresina-PI e tenho 27 anos.</p>
+            <p class="item-dois">Atualmente curso o técnico em Desenvolvimento de Sistemas no IFPI e sou graduando em Ciências Contábeis na UESPI.</p>
+            <p class="item-tres">Fotografia, desenvolvimento de jogos e desenvolvimento para WEB.</p>
+        </div>
+
+        <div id="tit-colunas">
+            <p id="infos">Geral</p>
+            <p class="cursos">Cursos</p>
+            <p class="inter">Interesses</p>
+        </div>
+
+        <img src="https://i.ibb.co/XsYwgf7/Imagem-do-Whats-App-de-2024-07-15-s-20-37-18-94ce6e50.jpg" alt="Banner do Portfólio." id="foto-dois"/>
+        <div id="titulo-dois">
+            <a href="portfolio.html">portfólio.</a>
+        </div>
+
+        <div class="caixalaranja"></div>
+        <div id="titbaixo">
+            <p class="sugestao">Deixe uma sugestão.</p>
+            <p class="ideia">uma ideia.</p>
+            <p class="elogio">um elogio.</p>
+            <p class="recomendacao">uma recomendação.</p>
+        </div>
+
+        <form id="com" action="/enviar-comentario" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+            <input type="submit" value="Enviar">
+        </form>
+
+        <div class="caixaamarela"></div>
+        <p class="musica">Coloca uma musiquinha aí.</p>
+
+        <form action="https://www.youtube.com/results" method="get" target="_blank">
+            <label for="search-query">Digite sua busca:</label>
+            <input type="text" id="search-query" name="search_query" required>
+            <button type="submit">Buscar</button>
+        </form>
+    
+    </main>
+
+    <footer>
+        <div class="rodape"></div>
+        <p id="insta"> CONTATO: instagram/@cabecatrovoa</p>
+    </footer>
+</body>
+</html>

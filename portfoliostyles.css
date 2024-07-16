@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(47, 88, 21, 0.515);
+}
+
+/* Header */
+#cabecalho {
+    width: 100%;
+    margin: auto;
+    background-color: #c14518;
+    color: black;
+    padding: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.textobarra {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 1px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Titulo */
+#titulo {
+    position: absolute;
+    font-family: "Bungee Inline", sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    top: 70px;
+    left: 600px;
+    color:#e5d8c2;
+    text-shadow: -2px 2px #c14518;
+}
+
+/* Fotos */
+#foto-um {
+    position: relative;
+    width: 450px;
+    height: auto;
+    clear: left;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    box-shadow: 10px -10px #dea616;
+}
+
+#foto-dois {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    clear: left;
+    float: left;
+    margin-left: 700px;
+    margin-top: 275px;
+    box-shadow: 10px -10px #e5d8c2;
+}
+
+#foto-tres {
+    position: absolute;
+    width: 265px;
+    height: auto;
+    clear: left;
+    float: left;
+    margin-left: 1000px;
+    margin-top: 275px;
+    box-shadow: 10px -10px #e5d8c2;
+}
+
+#foto-quatro {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    clear: left;
+    float: left;
+    margin-left: 750px;
+    margin-top: 275px;
+    box-shadow: 10px -10px #e5d8c2;
+}
